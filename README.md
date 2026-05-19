@@ -37,4 +37,15 @@ Players harvesting wood, mining ore nodes, or gathering ground resources have a 
 
 ### Admin Setup (Carbon Console)
 
-To open the admin dashboard, grant the nece
+To open the admin dashboard, grant the necessary permission:
+
+```
+c.grant user <username_or_steamid> randomfarmingloot.admin
+```
+
+## 💬 Commands
+
+| Command | Type | Target | Description |
+| --- | --- | --- | --- |
+| `/farmitems` | Chat | Player | Toggles random farming rewards ON/OFF. |
+| `/farmconfig` | Chat | Admin | Opens the farming admin control panel. |
